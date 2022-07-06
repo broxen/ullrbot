@@ -31,7 +31,7 @@ json=$(cat <<EOF
 			},
 			{
 				"name": "Server IP",
-				"value": "valheim.broxen.net:${port}",
+				"value": "${alertip}:${port}",
 				"inline": true
 			}
 		]
